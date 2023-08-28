@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+html,body{
+   
+    overflow-x: hidden;
+}
+.all{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+}
+.menu_left{
+    background-color: rgb(48, 48, 48);
+    width: 300px;
+    height: 100% !important;
+    position: fixed;
+}
+.menu_right{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    margin-left: 300px !important;
+}
+.menu_left img{
+    width: 150px;
+    padding-left: 20px !important;
+    padding-top: 20px;
+}
+.menu_left a{
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start !important;
+    transition: 0.4s ease-in-out;
+}
+.menu_left i{
+    font-size: 22px;
+    padding-right: 20px;
+    color: #ef3a5d;
+
+}
+.menu_left ul{
+    padding: 0px !important;
+    margin-top: 40px;
+}
+.menu_left li{
+    padding: 0px !important;
+    margin-top: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 20px !important;
+    transition: 0.4s ease-in-out;
+
+}
+.menu_left ul li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.menu_left ul li:hover a{
+    color: black !important;
+    letter-spacing: 2px;
+}
+.menu_right{
+    padding-top: 30px !important;
+}
+.menu_right .cards{
+    background-color: white !important;
+    padding: 20px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menu_right .cards i{
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+.menu_right .cards h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.menu_right .cards h5{
+    font-weight: 700;
+}
+.menu_down img{
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+}
+.menu_down .messages_dashboard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px !important;
+}
+.menu_down .box{
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.menu_down .box h3{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.menu_down .box h5{
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.listeofusers img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.listeofusers td{
+    font-weight: 600;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.clients .box img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.clients .box{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.team i{
+    font-size: 18px !important;
+}
+.team .cards{
+    background-color: white !important;
+    padding: 23px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
+}
+.team .over{
+    position: relative;
+}
+.team .overlay{
+    position: absolute;
+    top: 0;
+    background-color: #ef3a5e6d;
+    opacity: 0;
+    width: 0%;
+    height: 100%;
+    transition: 0.4s ease-in-out;
+}
+.team .cards:hover{
+    cursor: pointer;
+}
+.team .cards:hover .overlay{
+    width: 100%;
+    opacity: 1;
+}
+.team .overlay div{
+    background-color: white;
+    margin-top: 14px;
+    display: block;
+    width: 30px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    margin-left: 20px;
+    border-radius: 6px;
+    color: #ef3a5d;
+    transition: 0.4s ease-in-out;
+}
+.team .overlay div:hover{
+    background-color: #ef3a5d;
+    color: white;
+}
+
+.team h4{
+    font-size: 18px !important;
+}
+.team h5{
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 16px !important;
+}
+.team h6{
+    text-align: center;
+    margin-top: 0px;
+    color: #ef3a5d;
+    font-weight: 700;
+    font-size: 15px !important;
+}
+.Provide img{
+    width: 80px !important;
+}
+.blogs .cards{
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+.blogs .cards i{
+    color: #ef3a5d;
+    font-size: 22px;
+}
+.blogs .cards h6{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 14px;
+}
+.blogs .cards h3{
+    font-weight: 600;
+}
+
+.blogs .cards .btn i{
+    color: white;
+    font-size: 18px;
+}
+.password .box{
+    background-color: white;
+}
+
+.login .box{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 16px;
+    padding: 40px;
+    transition: 0.4s ease-in-out;
+}
+.login .box:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.login img{
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}
+.login .line{
+    height: 2px;
+    background-color: #ef3a5d;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.login h2{
+    font-weight: 800;
+    font-size: 32px;
+    color: #ef3a5d;
+    margin-bottom: 20px !important;
+    margin-top: 5px !important;
+    margin-bottom: 40px;
+    transition: 0.4s ease-in-out;
+}
+.login button{
+    background-color: #ef3a5d !important;
+    border: 1px solid #ef3a5d !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    transition: 0.4s ease-in-out;
+}
+.login button:hover{
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.login a{
+    color: rgba(0, 0, 0, 0.626);
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+}
+.login a:hover{
+    color: #ef3a5d;
+}
